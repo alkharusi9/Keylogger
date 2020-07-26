@@ -21,7 +21,7 @@ def press(key):
     keys.append(key)
     count += 1
 
-    print('{0} pressed'.format(key))
+    print('{0}'.format(key))
 
     if count >= 10:
         count = 0
